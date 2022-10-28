@@ -1,0 +1,70 @@
+Release mode:
+
+Test1:
+Random generated Points: 10.000, 100.000, 1000.000, 10.000.000
+
+10.000:
+Gift wrapping: 1ms
+Quickhull: 2ms
+
+100.000
+Gift wrapping: 18ms
+Quickhull: 30ms
+
+1.000.000
+Gift wrapping: 207ms
+Quickhull: 334ms
+
+10.000.000
+Gift wrapping: 1936ms
+Quickhull: 3162ms
+
+Test2:
+Random generated Points: 10.000, 100.000, 1000.000, 10.000.000
+
+10.000:
+Gift wrapping: 1ms
+Quickhull: 3ms
+
+100.000
+Gift wrapping: 20ms
+Quickhull: 34ms
+
+1.000.000
+Gift wrapping: 206ms
+Quickhull: 339ms
+
+10.000.000
+Gift wrapping: 2474ms
+Quickhull: 3329ms
+
+Test3:
+Random generated Points: 10.000, 100.000, 1000.000, 10.000.000
+
+10.000:
+Gift wrapping: 1ms
+Quickhull: 2ms
+
+100.000
+Gift wrapping: 24ms
+Quickhull: 38ms
+
+1.000.000
+Gift wrapping: 240ms
+Quickhull: 291ms
+
+10.000.000
+Gift wrapping: 1818ms
+Quickhull: 2970ms
+
+
+Grift wrapping:
+Normal: O(Nh)
+Worst case: O(N^2)
+
+Quickhull:
+Normal: O(N * log(N))
+Worst case: O(N^2)
+
+Quickhull is poorly implemented in this example in terms of performance
+
